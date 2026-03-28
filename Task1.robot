@@ -40,23 +40,3 @@ Tasks
     Log To Console    Product Name: ${product}
 
     Close Browser
-
-
-#
-#    Page Should Contain List  id=dropdown
-#
-#    ${options}=  Get List Items  id=dropdown
-#    Log To Console  ${options}
-#
-#    Select From List By Label  id=dropdown  Option 1
-#
-#    ${select_option}=  Get Selected List Label  id=dropdown
-#    Log To Console  ${select_option}
-#
-#    List Selection Should Be  id=dropdown  Option 1
-#    Sleep  3s
-#
-
-#    Sleep  3s
-
-    Close Browser
